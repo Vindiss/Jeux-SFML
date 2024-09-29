@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Components\Button.cpp" />
+    <ClCompile Include="src\SpawnWall.cpp" />
+    <ClCompile Include="src\Components\Bullet.cpp" />
+    <ClCompile Include="src\Components\Enemy.cpp" />
+    <ClCompile Include="src\Components\ShapeRenderer.cpp" />
+    <ClCompile Include="src\Components\Player.cpp" />
+    <ClCompile Include="src\Components\SpriteRenderer.cpp" />
+    <ClCompile Include="src\EnemySpawn.cpp" />
+    <ClCompile Include="src\Scene.cpp" />
+    <ClCompile Include="src\Components\Component.cpp" />
+    <ClCompile Include="src\Components\SquareCollider.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Maths\Vector2.cpp" />
+    <ClCompile Include="src\LevelChoice.cpp" />
+    <ClCompile Include="src\Save.cpp" />
+    <ClCompile Include="src\Components\LifeBar.cpp" />
+    <ClCompile Include="src\Components\LifeBarRenderer.cpp" />
+    <ClCompile Include="src\Components\Achievement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Components\Bullet.h" />
+    <ClInclude Include="include\Components\Button.h" />
+    <ClInclude Include="include\Components\Enemy.h" />
+    <ClInclude Include="include\Components\ShapeRenderer.h" />
+    <ClInclude Include="include\SpawnWall.h" />
+    <ClInclude Include="include\Components\SquareCollider.h" />
+    <ClInclude Include="include\Components\Component.h" />
+    <ClInclude Include="include\EnemySpawn.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\Components\Player.h" />
+    <ClInclude Include="include\Scene.h" />
+    <ClInclude Include="include\Maths\Vector2.h" />
+    <ClInclude Include="include\WindowConfig.h" />
+    <ClInclude Include="include\LevelChoice.h" />
+    <ClInclude Include="include\Save.h" />
+    <ClInclude Include="include\Components\LifeBar.h" />
+    <ClInclude Include="include\Components\LifeBarRenderer.h" />
+    <ClInclude Include="include\Components\ObjectName.h" />
+    <ClInclude Include="include\Components\SpriteRenderer.h" />
+    <ClInclude Include="include\Maths\Vector2.inl" />
+    <ClInclude Include="include\Components\Achievement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x64\Debug\GameObjectLib.lib.recipe" />
+    <None Include="x64\Debug\GameObjectLib.tlog\CL.command.1.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\Cl.items.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\CL.read.1.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\CL.write.1.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\GameObjectLib.lastbuildstate" />
+    <None Include="x64\Debug\GameObjectLib.tlog\Lib.command.1.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\Lib-link.read.1.tlog" />
+    <None Include="x64\Debug\GameObjectLib.tlog\Lib-link.write.1.tlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="x64\Debug\Bullet.obj" />
+    <Object Include="x64\Debug\Button.obj" />
+    <Object Include="x64\Debug\Component.obj" />
+    <Object Include="x64\Debug\Enemy.obj" />
+    <Object Include="x64\Debug\EnemySpawn.obj" />
+    <Object Include="x64\Debug\GameObject.obj" />
+    <Object Include="x64\Debug\Player.obj" />
+    <Object Include="x64\Debug\Scene.obj" />
+    <Object Include="x64\Debug\ShapeRenderer.obj" />
+    <Object Include="x64\Debug\SpawnWall.obj" />
+    <Object Include="x64\Debug\SpriteRenderer.obj" />
+    <Object Include="x64\Debug\SquareCollider.obj" />
+    <Object Include="x64\Debug\Vector2.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="x64\Debug\GameObjectLib.log" />
+  </ItemGroup>
+</Project>
